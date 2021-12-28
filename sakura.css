@@ -1,0 +1,101 @@
+body{
+margin: 0;
+padding: 0;
+font-family: cursive;
+background-color: lightpink;
+color: green;
+}
+
+/*header and footer design*/
+header, footer{
+color: green;
+}
+
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer p{
+margin: 0 auto;
+text-align: center;
+font-size: 10px;
+padding: 20px;
+} 
+/*header and footer design end*/
+
+h1{
+font-style: italic;
+text-align: center;}
+
+.body{
+background-color: white;
+padding:1% 5%;
+}
+
+.body a{
+text-decoration: none;
+color: green;
+background-color: pink;
+border: 1px dotted pink;
+border-radius: 10px;
+padding:1px 3px 3px 3px;
+
+}
+
+/*navigation design*/
+nav a{
+text-decoration: none;
+color: green;
+}
+
+nav li{
+list-style: none;
+float: left;
+margin:1px 0 0 0;
+border: 1px solid white;
+padding:12px 8px 0 8px;
+border-width: 1;
+border-radius: 5px 5px 2px 2px;
+font-size: 13px;
+margin-left: 5px;}
+
+nav li:hover{
+background-color: white;
+transition: 0.5s;}
+/* navigation design end*/
+
+/*image styling*/
+.sakura-images img{
+width: 310px;
+height: 390px;
+position: relative;
+border-radius: 15px;}
+
+.cycle-slideshow {
+    float: left;
+    margin-right: 8px;
+}
+
+.slide{position: absolute;}
+
+/*image styling end*/
+
+/*float*/
+.group:before,
+.group:after {
+           content: "";
+           display: table;
+
+}
+
+.group:after {
+           clear: both;
+}
+
+.group {
+           zoom: 1;
+}
+/*end float*/
