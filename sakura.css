@@ -23,7 +23,7 @@ margin: 0 auto;
 text-align: center;
 font-size: 10px;
 padding: 20px;
-} 
+}
 /*header and footer design end*/
 
 h1{
@@ -42,7 +42,7 @@ background-color: pink;
 border: 1px dotted pink;
 border-radius: 10px;
 padding:1px 3px 3px 3px;
-
+max-width: 1050px
 }
 
 /*navigation design*/
@@ -68,18 +68,32 @@ transition: 0.5s;}
 /* navigation design end*/
 
 /*image styling*/
-.sakura-images img{
-width: 310px;
-height: 390px;
-position: relative;
-border-radius: 15px;}
-
-.cycle-slideshow {
-    float: left;
-    margin-right: 8px;
+.sakura-images{
+  display: flex;
 }
 
-.slide{position: absolute;}
+.a{
+  flex: 1;
+}
+
+.b{
+  flex: 1;
+}
+
+.c{
+  flex: 1;
+}
+
+.sakura-images img{
+width: 80%;
+height: 80%;
+border-radius: 15px;
+margin: 0 auto;
+}
+
+.cycle-slideshow {
+    margin-right: 8px;
+}
 
 /*image styling end*/
 
@@ -92,7 +106,7 @@ border-radius: 15px;}
 }
 
 .group:after {
-           clear: both;
+clear: both;
 }
 
 .group {
